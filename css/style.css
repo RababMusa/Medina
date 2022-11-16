@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin-bottom: 10px;
+}
+html{
+    direction: rtl;
+}
+@font-face {
+    font-family: ltbukraregular;
+    src: url('../css/29ltbukraregular\ 2.otf');
+}
+body{
+    background-color: #fff;
+    font-family: ltbukraregular;
+}
+.back-invitation{
+    background-image: url('../img/invitation-cover.png');
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    max-width: 520px;
+    min-height: 100vh;
+}
+.content-invitation{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.description-content-invitation{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.bottom-invitaion{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.bottom-invitaion,.bottom-invitaion img{
+    width: 100%;
+    height: auto;
+}
+.head-invitation{
+    display: flex;
+    align-items: center;
+}
+.imgHead-invitation,.imgHead-invitation img{
+    width: 80%;
+}
+.imgHead-invitation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.namePerson-invitation{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.details-invitation{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.align-details-invitation{
+    align-items: baseline;
+}
+.icon-details-invitation{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+}
+.details-invitation div{
+    flex: 1;
+}
+.p-date-invitation{
+    color: #fff;
+}
+.p-date{
+    color: #fff;
+    margin-bottom: 3px;
+}
+hr{
+    margin-left: 30px;
+    margin-right: 30px;
+    border-color: #fff;
+    background-color: #fff;
+    opacity: 1;
+}
+.p-qr{
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 14px;
+}
+.p-arrow{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 1px solid #00B26B;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.div-QR{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.imgQr,.imgQr img{
+    width: 100%;
+}
+.imgbtnAccept button{
+    border: none;
+    background-color: transparent;
+    text-align: right;
+}
+.imgbtnAccept button img{ 
+    width: 70%;
+}
+.btn-clickHere{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 20%;
+}
+.imgMqr{
+    width: 35%;
+    padding-right: 30px;
+}
+.imgMqr img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.nameMedex-invitation,.nameFasal,.hTitleFasil{
+    font-weight: bold;
+
+}
+@media screen and (max-width:400px){
+    .icon-details-invitation{
+        font-size: 22px;
+    }
+    .p-date-invitation{
+        font-size: 14px;
+    }
+    .p-date{
+        font-size: 13px;
+    }
+    .place-invitation{
+        margin-right: 20px;
+    }
+    .nameMedex-invitation{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .div-QR{
+        align-items: flex-start;
+    }
+    .p-qr{
+        font-size: 11px;
+    }
+    .p-arrow{
+        padding: 0px 8px;
+        padding-bottom: 2px;
+        margin-top:2px;
+    }
+    .p-arrow i{
+        font-size: 12px;
+    }
+    .btn-clickHere{
+        margin-right: 15%;
+    }
+    .nameFasal{
+        font-size: 19px;
+    }
+    .imgHead-invitation, .imgHead-invitation img{
+        width: 50%;
+    }
+    p,h1,h2,h3,h4,h5,h6{
+        margin-bottom: 6px;
+    }
+    .imgHead-invitation{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .content-invitation{
+        margin-bottom: 15px;
+    }
+    .details-invitation{
+        margin-bottom: 10px;
+    }
+    .hTitleFasil{
+        font-size: 18px;
+    }
+    .namePerson-invitation{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .imgbtnAccept button img{ 
+        width: 60%;
+    }
+    .imgMqr img{
+        margin-bottom: 0px;
+    }
+}
