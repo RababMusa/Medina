@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation | Medina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>     
+    <div class="back-invitation">
+        <div class="head-invitation">
+            <div class="imgHead-invitation">
+                <img src="img/invitation-word.png" alt="">
+            </div>
+            <div class="imgHead-invitation"> 
+                <img src="img/Medex-logo.png" alt="">
+            </div>
+        </div>
+        
+        <div class="content-invitation">
+            <h4 class="namePerson-invitation">الاسم</h4>
+            <p>برعـاية كـريمة من </p>
+            <h5 class="hTitleFasil">صـاحب الـسـمـو الـمـلـكـي الأمـيـر</h5>
+            <h3 class="nameFasal">فـيـصـل بـن سـلـمـان بن عبد العـزيـز</h3>
+            <p>أمير منطقة المدينة المنورة</p>
+        </div>
+        <div class="description-content-invitation">
+            <p>نتشرف بدعوتكم لحضور</p>
+            <h6 class="nameMedex-invitation">معرض مشروعات المدينة المنورة - ميدكس  2022</h6>
+            <p>والذي نستعرض فيه أبرز المشاريع التنموية وأهم الفرص
+                االستثمارية ونعرف بكفاءة بيئة االستثمار في المدينة المنورة</p>
+        </div>
+        <div class="details-invitation align-details-invitation">
+            <div>
+                <i class="fa-sharp fa-solid fa-calendar-days icon-details-invitation"></i>
+                <i class="fa-solid fa-clock icon-details-invitation"></i>
+                <p class="p-date-invitation">التاريخ الوقت</p>
+                <p class="p-date">9-7 ديسمبر 2022</p>
+                <p class="p-date">الساعة 8:00 مساءاَ </p>
+            </div>
+            <div class="place-invitation">
+                <a href="https://www.google.com/maps/place/King+Salman+International+Convention+Center/@24.4916216,39.563452,17z/data=!3m1!4b1!4m5!3m4!1s0x15bdb92eb70d5481:0x6f9474926bf1a805!8m2!3d24.4916216!4d39.563452?hl=en-AE">
+                <i class="fa-sharp fa-solid fa-location-dot icon-details-invitation"></i>
+                </a>
+                <p class="p-date-invitation">المكان</p>
+                <p class="p-date">مركز الملك سلمان الدولـي</p>
+                <p class="p-date">للمؤتمرات بالمدينة المنورة</p>
+            </div>
+        </div>
+        <hr>
+        <div class="details-invitation">
+            <div class="imgbtnAccept">
+            <button class="btnAccept" id="btnAccept">
+                <i class="fa-solid fa-angle-down iconArrawbntAccept"></i>
+                <hr class="hr-btnAccept hr-top-btnAccept">
+                <span id="textbtnAccept" onclick="btnGreen()">
+                    لـــــقـــــبـــــول
+                    <br>
+                    الـــــدعـــــوة
+                </span>
+                <hr class="hr-btnAccept hr-bottom-btnAccept">
+                <i class="fa-solid fa-angle-up iconArrawbntAccept"></i>
+            </button>
+            <button class="btn-clickHere">إضغط هنا</button>
+            </div>
+            <div class="div-QR">
+               <div>
+                <p class="p-qr">تحـميـل</p>
+                <p class="p-qr">كـتـيـب</p>
+                <p class="p-qr">المعرض</p>
+                <p class="p-arrow">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </p>
+               </div>
+                <div class="imgQr"> 
+                    <img src="img/qr.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="imgMqr">
+                <img src="img/mqr.png" alt="">
+            </div>
+        </div>
+        <div class="bottom-invitaion">
+            <img src="img/bottom-invitation.png" alt="">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        var btn = document.getElementById("textbtnAccept");
+        var backgroundBtnAccept = document.getElementById("btnAccept")
+        function btnGreen(){
+            backgroundBtnAccept.style.background="#b08a75";
+            btn.innerHTML="تم قـبـول الـدعـوة";
+        }
+    </script>
+</body>
+</html>
